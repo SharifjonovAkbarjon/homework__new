@@ -1,0 +1,48 @@
+.nexus{
+width: 100%;
+background: $bg-dark;
+}
+
+.nexus__body{
+min-height: 600px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.nexus__heading{
+font-family: Neue ;
+font-size: 48px;
+font-weight: 800;
+line-height: 57.6px;
+text-align: left;
+color: #fff;
+}
+
+.nexus__wrapper{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.nexus__item{
+width: 360px;
+height: 264px;
+// border: 1px solid darkblue;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: rgba(82, 36, 181, 1);
+}
+
+.nexus__paragraph{
+width: 200px;
+font-family: Neue;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+margin-top: 20px;
+color: #fff;
+}

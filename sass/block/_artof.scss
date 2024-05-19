@@ -1,0 +1,69 @@
+.gamers{
+width: 100%;
+background: $bg-dark;
+
+}
+
+.gamers__body{
+min-height: 1129px;
+display: flex;
+flex-direction: column;
+}
+
+.gamer__collection{
+display: flex;
+flex-direction: row;
+gap: 16px;
+margin-top: 80px;
+}
+
+.gamer__item{
+min-width: 89px;
+padding: 24px;
+background: rgba(37, 37, 37, 1);
+font-size: 18px;
+font-weight: 800;
+line-height: 17.37px;
+letter-spacing: 0.15em;
+text-align: center;
+color: rgb(255,255,255,1);
+}
+
+.gamer__search{
+width:64px;
+height:64px;
+padding: 20px;
+gap: 8px;
+background: rgba(37, 37, 37, 1);
+margin-left: 490px;
+}
+
+.gamer__wrapper{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 64px;
+color: rgb(255,255,255,1);
+gap: 40px;
+margin-bottom: 82px;
+}
+
+.gamers__item{
+width: 360px;
+height: 480px;
+background: rgba(82, 36, 181, 1);
+}
+
+.gamer__title{
+font-size: 20px;
+font-weight: 800;
+line-height: 35.08px;
+margin: 15px 0  6px 24px ;
+}
+
+.gamer__names{
+display: flex;
+align-items: center;
+gap: 6px;
+margin: 30px 0 0 24px;
+}
